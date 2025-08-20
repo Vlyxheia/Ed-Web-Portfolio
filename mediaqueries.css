@@ -1,0 +1,55 @@
+@media screen and (max-width: 1200px){
+    .border{
+        margin: 5%;
+    }
+    #header{
+        height: auto;
+
+    }
+    body{
+        background: linear-gradient(0deg,
+         rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+         url("/assets/bg2.JPG");
+         background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+        justify-content: center;
+    }
+    .fa-arrow-up-right-from-square{
+        display: none;
+    }
+    .name-info a{
+        font-size: 19px;
+    }
+    .name-info h1{
+        text-align: center;
+        justify-content: center;
+    }
+    .about p{
+        text-align: center;
+    }
+    .about{
+        text-indent: 0;
+        font-size: 18px;
+    }
+    .info{
+        justify-content: center;
+    }
+    p{
+        font-size: 18px;
+    }
+    .project-box{
+        text-align: center;
+    }
+    #my-info{
+        height: auto;
+    }
+    .project-title{
+        font-size: 20px;
+    }
+    .summary{
+        font-size: 15px;
+    }
+}

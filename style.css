@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/bg1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+.border{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+#header{
+    margin-top: 8%;
+    height: 50vh;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.name-info a{
+    color: #BBBBBB;
+    font-size: 32px;
+    display: flex;
+    text-decoration: none;
+}
+.name-info h1{
+    font-weight: 200;
+    text-underline-offset: 1rem;
+    text-decoration: underline;
+}
+.name-info i{
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+    color: #747474;
+}
+.about{
+    font-size: 20px;
+    color: #747474;
+    text-indent: 3em;
+}
+.title h1{
+    text-decoration: underline;
+    font-weight: 200;
+    color: #BBBBBB;
+    font-size: 30px;
+}
+.project-box{
+    text-align: right;
+    height: 250px;
+    overflow-y: scroll;
+}
+.summary{
+    font-size: 20px;
+}
+.project-title{
+    font-size: 30px;
+    width: auto;
+}
+.project-title h1{
+    font-weight: 200;
+}
+.project-title a{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+.summary a{
+    text-decoration: none;
+    color: #BBBBBB;
+}.project-box::-webkit-scrollbar{
+    width: 0;
+}
+.summary a{
+    text-decoration: underline;
+}
