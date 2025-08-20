@@ -7,7 +7,7 @@
 }
 body{
     font-family: "Outfit", sans-serif;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/bg1.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/bg1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
